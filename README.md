@@ -20,7 +20,7 @@ python eye_crop_resize.py /PATH/TO/IMAGE_DIRECTORY
 
 The script takes following optional arguments:
 ```
-  -h, --help            show this help message and exit
+  -h, --help            show help message and exit
   -o IMAGE_OUTPUT_PATH, --image_output_path IMAGE_OUTPUT_PATH
                         /path/to/output_image_dir
   -s IMAGE_OUTPUT_SIZE, --image_output_size IMAGE_OUTPUT_SIZE
@@ -29,9 +29,12 @@ The script takes following optional arguments:
                         Eye size reduction factor
   -d, --display         Display image
 ```
->Note: Press spacebar to remove currently displayed image en proceed to next image.
 
->Note: By default the resized output images are stored in the same directory as the original images.
+>Note: If no output path is specified the resized output images are stored in the same directory as the original images.
+
+>Note: The eye size reduction factor (default: 0.9) is useful to remove the outer border of the eye. Just set eye reduction to 1.0 if you do not want to remove the outer border. 
+
+>Note: Press spacebar to close currently displayed image en proceed to next image.
 
 
 
