@@ -10,12 +10,12 @@ It produces for each image a reduced, square image containing just the eye of th
 
 Crop and resize one image using default parameters:
 ```
-python eye_crop_resize.py */path/to/image*
+python eye_crop_resize.py /PATH/TO/IMAGE
 ```
 
 Crop and resize a whole directory of images using default parameters:
 ```
-python eye_crop_resize.py */path/to/image_directory*
+python eye_crop_resize.py /PATH/TO/IMAGE_DIRECTORY
 ```
 
 The script takes following optional arguments:
